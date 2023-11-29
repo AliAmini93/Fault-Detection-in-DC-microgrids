@@ -38,7 +38,7 @@ This project involved simulations of Direct Current (DC) microgrids using DIgSIL
 
 - The data and results for this project are stored in the respective folders for easy access and review.
 
-# Detailed Project Description
+## Detailed Project Description
 
 The data for this project was procured from numerous simulations of Direct Current (DC) microgrids using DIgSILENT software. The software generated data from each simulation containing eight discretized variables. These variables were derived from voltage and current signals measured at both the positive and negative poles and at both ends of the line. One of the primary objectives was to develop a model for bus 1 that could detect and locate faults on the line. The sample rate for these variables was set at 50000, to identify an internal fault (lines 1-2) from other external faults using only seven samples, equivalent to 0.14 milliseconds. This was to ensure precise protection of the DC microgrid.
 
