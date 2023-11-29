@@ -38,10 +38,10 @@ This project involved simulations of Direct Current (DC) microgrids using DIgSIL
 
 - The data and results for this project are stored in the respective folders for easy access and review.
 
-# Fault Detection in DC-microgrids
+# Detailed Project Description
+
 The data for this project was procured from numerous simulations of Direct Current (DC) microgrids using DIgSILENT software. The software generated data from each simulation containing eight discretized variables. These variables were derived from voltage and current signals measured at both the positive and negative poles and at both ends of the line. One of the primary objectives was to develop a model for bus 1 that could detect and locate faults on the line. The sample rate for these variables was set at 50000, to identify an internal fault (lines 1-2) from other external faults using only seven samples, equivalent to 0.14 milliseconds. This was to ensure precise protection of the DC microgrid.
 
-# Detailed Project Description
 Feature extraction from the data was achieved using Discrete Wavelet Transform (DWT) and Fast Fourier Transform (FFT). The FFT yielded four components for each variable, amounting to 32 features, while the DWT produced two components for each variable, resulting in 16 features. Five machine learning methods, Logistic Regression (LR), Linear Discriminant Analysis (LDA), Support Vector Machine (SVM), Random Forest (RF), and Extreme Gradient Boosting (XGBoost), were then utilized for two-class classification. Moreover, three different feature-selection methods, Mutual Information (MI), ANOVA F-measure, and Pearson correlation, were implemented to select the most valuable features from the 32 (FFT) and 16 (DWT). The raw data, represented by a window of seven by eight samples, was used for Convolutional Neural Networks (CNN) models for spatial and temporal feature extraction and classification. Four configurations of CNN models with different capacities were employed for this purpose.
 
 
