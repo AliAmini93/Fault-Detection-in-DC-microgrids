@@ -12,7 +12,7 @@ This project involved simulations of Direct Current (DC) microgrids using DIgSIL
 - **Machine Learning Methods:** Logistic Regression (LR), Linear Discriminant Analysis (LDA), Support Vector Machine (SVM), Random Forest (RF), Extreme Gradient Boosting (XGBoost).
 - **Feature-Selection Methods:** Mutual Information (MI), ANOVA F-measure, Pearson correlation.
 
-## Model Development
+## CNN-based Model Development
 
 - **Convolutional Neural Networks (CNN):** Employed for spatial and temporal feature extraction and classification. Four different CNN model configurations were tested.
 - **Evaluation Strategy:** (5-2)-fold cross-validation.
