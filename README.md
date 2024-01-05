@@ -3,7 +3,7 @@
 
 This project involved simulations of Direct Current (DC) microgrids using DIgSILENT software. The simulations generated data with eight discretized variables derived from voltage and current signals at both poles and ends of the line. The primary goal was to develop a model for bus 1 to detect and locate line faults.
 
-## Data Description, Feature Extraction and Selection, Applied ML Methods
+## Data Description, Feature Extraction and Selection, and Applied ML Methods
 
 - **Sampling Rate:** 50000, aiming to distinguish internal faults (lines 1-2) from external ones using seven samples (0.14 milliseconds).
 - **Feature Extraction:**
