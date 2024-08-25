@@ -49,3 +49,6 @@ The effectiveness of the models was evaluated using a (5-2)-fold cross-validatio
 To assess the performance of the models under noisy conditions, the input data was contaminated with Gaussian noise at different Signal-to-Noise Ratio (SNR) values, ranging from 20 to 45 decibels. The model results were only reported when the test data were corrupted with noise. The models were not trained using noisy data. The feature selection and hyper-parameter tuning were conducted using clean data. In the outer 5-fold, the test data were evaluated using the aforementioned noisy data. 
 This process was undertaken to evaluate the robustness of the methods in conditions with noise interference. The outcomes of this part of the study are stored in a folder named "Noisy Evaluation". Conversely, the results from the evaluation of clean data are documented in a folder titled "Without Noise Evaluation".
 
+## Author
+- **Ali Amini**: Machine Vision Engineer and Software Developer at RCDAT.
+- **GitHub Repo**: [Repo Adress](https://github.com/AliAmini93/Fault-Detection-in-DC-microgrids) 
