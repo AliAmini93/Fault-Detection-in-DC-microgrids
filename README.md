@@ -50,5 +50,5 @@ To assess the performance of the models under noisy conditions, the input data w
 This process was undertaken to evaluate the robustness of the methods in conditions with noise interference. The outcomes of this part of the study are stored in a folder named "Noisy Evaluation". Conversely, the results from the evaluation of clean data are documented in a folder titled "Without Noise Evaluation".
 
 ## Author
-- **Ali Amini**: Machine Vision Engineer and Software Developer at RCDAT.
+- **Ali Amini**.
 - **GitHub Repo**: [Repo Adress](https://github.com/AliAmini93/Fault-Detection-in-DC-microgrids) 
